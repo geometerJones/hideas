@@ -1,0 +1,225 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Final Project
+ *
+ * Global stylesheet.
+ ***************************************************************************/
+
+
+/* style for toolbar*/
+div.toolbar {
+    background:#FFFFFF;
+    text-align:center;
+}
+
+        /* style for logo */
+        img#logo {
+            border: 0;
+            position: relative;
+            margin-top:10px;
+            margin-bottom:10px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        
+        /* style for the row of buttons */
+        tr#buttons {
+            background:#AAA;
+        }
+        
+        /* style for button on toolbar */
+        img.button {   
+            border:1px solid #BBB;
+            height:40px;
+            margin-left:40px;
+            margin-right:40px;
+            margin-top:6px;
+            margin-bottom:1px;
+            position:relative;
+        }
+        
+        /* style for login status */
+        td.current {
+        position:absolute;
+        padding-left:80px;
+        text-align:right;
+        vertical-align:top;
+}
+    
+/* defaults for body */
+body {
+    background: #FFF;
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+    margin:0;
+    padding-top:0;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+tr#search {
+
+    padding-left:100px;
+}
+
+textarea#postarea {
+    resize:none;
+}
+
+
+tr#status {
+    text-align:center;
+}
+
+div#id {
+    text-align:right;
+}
+
+
+td#makepost {
+    vertical-align:top;
+    text-align:center;
+    padding-top:60px;
+    padding-left:70px;
+    padding-right:70px;
+    width:250px;
+}
+
+text.displaying {
+    text-align:right;
+}
+
+
+tr#bonus {
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:50px;
+}
+
+div#postlist {
+    width:550px;
+}
+
+td#pagenumber {
+    text-align:right;
+}
+
+div#makepost {
+    text-align:center;
+}
+
+div#makecomment {
+    text-align:center;
+}
+
+div#pooptoss {
+    padding-top:10px;
+    padding-left:10px;
+}
+
+/* style for postpage */
+div#postpage {
+    text-align:right;
+}
+
+
+/* style for main*/
+div#main {
+    margin-top:0;
+}
+
+div#actionstatus {
+    text-align:center;
+    padding-bottom:10px;
+}
+
+td#postbar {
+    height:10px;
+    bgcolor:white;
+    width:50;
+}
+
+td.box {
+    padding-left:20px;
+}
+
+td.grad0 {
+    background:#FFA8A8;
+}
+
+td.grad1 {
+    background:#FFB9B9;
+}
+
+td.grad2 {
+    background:#FFCACA;
+}
+
+td.grad3 {
+    background:#FFDCDC;
+}
+
+td.grad4 {
+    background:#FFEEEE;
+}
+
+td.grad5 {
+    background:#FFFFFF;
+}
+
+td.grad6 {
+    background:#F0FFEB;
+}
+
+td.grad7 {
+    background:#E0FFD6;
+}
+
+td.grad8 {
+    background:#D1FFC2;
+}
+
+td.grad9 {
+    background:#C2FFAD;
+}
+
+td.grad10 {
+    background:#B2FF99;
+}
+
+td.11 {
+
+}
+
+/* style for features*/
+form#features {
+    margin-right:0;
+}
+
+
+/* style for post boxes*/
+div#postboxes {
+    width:560px;
+	height:360px;
+	float:right;
+	background-color:#999;
+}
+
+
+
+
+/* eliminate margins around forms */
+form {
+    margin: 0;
+}
+
+/* center tables */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
